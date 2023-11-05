@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>DR Report</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="header-main-container">
+      <div class="navbar">
+        <h1 class="navbar-heading">Digital Respect</h1>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="cyber_bullying.html">CyberBullying</a></li>
+          <li><a href="cyber_security.html">CyberSecurity</a></li>
+        </ul>
+      </div>
+
+      <div class="header-container">
+        <div class="header-content-container">
+          <h2 class="header-title">SECURE REPORT SYSTEM</h2>
+          <p class="header-paragraph">How does it work and How you use it?</p>
+        </div>
+        <div class="header-img-container">
+          <!-- <img src="img/cyber_img1.png" alt="" class="header-img" /> -->
+        </div>
+      </div>
+    </div>
+
+    <div class="rp-main-1">
+      <div class="rp-main-1-left">
+        <p>HOW DO YOU USE IT?</p>
+        <ul>
+          <li>Enter your valid CUNY EMPLID</li>
+          <li>Enter the course that the "person" is enrolled in</li>
+          <li>Describe the incident in detail</li>
+        </ul>
+      </div>
+      <div class="rp-main-1-right">
+        <p>HOW DOES IT WORK?</p>
+        <ul>
+          <li>
+            The reported person will be automatically added to the watch list
+          </li>
+          <li>
+            To prevent any false accusations, the system will reject any invalid
+            CUNY EMPLIDs
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="rp-form">
+      <label for="CUNYID">CUNY EMPLID: </label>
+      <input type="text" id="CUNYID" />
+      <label for="COURSE">THE COURSE: </label>
+      <input type="text" id="COURSE" />
+      <label for="detail">INCIDENT DETAILS: </label>
+      <textarea name="detail" id="detail" cols="30" rows="10"></textarea>
+      <button type="submit" class="rp-btn">REPORT</button>
+    </div>
+  </body>
+</html>
