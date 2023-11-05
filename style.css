@@ -343,15 +343,121 @@ body {
   line-height: 1.4em;
 }
 
-.cb-main-2-content-p1 {
+.cb-main-3 {
+  display: flex;
+  margin: 100px 50px;
+  justify-content: center;
+  height: 400px;
 }
 
-.cb-main-2-content-p2 {
+.cb-main-3-left {
+  width: 50%;
+  background-color: #212121;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-.cb-main-2-content ul {
+.cb-main-3-left p {
+  font-size: 3em;
+  font-weight: 600;
 }
 
-.cb-main-2-content li {
+.cb-main-3-right {
+  width: 50%;
+  background-color: #f2382b;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: left;
 }
+
+.cb-main-3-right span {
+  font-weight: bold;
+  font-size: 3em;
+}
+
+.cb-main-3-right p {
+  font-size: 1.2em;
+  width: 400px;
+}
+
+.cb-main-4 {
+  display: flex;
+  margin: 100px 50px;
+  justify-content: center;
+  height: 600px;
+  background-color: #212121;
+  padding: 50px 0px;
+}
+
+.cb-main-4 img {
+  /* width: 80%; */
+}
+
+.cy-main-1 {
+  margin: -50px 50px 0px 50px;
+  background-color: #212121;
+  color: white;
+  font-size: 1.2em;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5em;
+}
+
+.cy-main-1 p {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.cy-main-2 {
+  display: flex;
+  margin: 0 50px;
+  font-size: 1.2em;
+}
+
+.cy-main-2-left {
+  background-color: #f4f5fc;
+  width: 50%;
+  padding: 30px;
+  line-height: 1.5em;
+}
+
+.cy-main-2-left-bold {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.cy-main-2-right {
+  background-color: #f2382b;
+  width: 50%;
+  padding: 30px;
+  color: white;
+  line-height: 1.5em;
+}
+
+.cy-main-2-right-bold {
+  font-weight: 700;
+  font-size: 1.4em;
+}
+
+.cy-main-3 {
+  background-color: #212121;
+  padding: 40px 100px;
+  font-size: 1.2em;
+  color: white;
+  line-height: 1.4em;
+}
+
+.cy-main-3-bold {
+  font-weight: 700;
+  font-size: 1.5em;
+}
+
 /* end of Cyber Bullying page */
