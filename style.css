@@ -289,3 +289,69 @@ body {
   background-color: white;
   color: black;
 }
+
+/* Cyber Bullying page */
+
+.cb-main-1 {
+  width: 100%;
+  display: flex;
+  padding: 60px 30px;
+  justify-content: space-around;
+}
+
+.cb-main-1-left {
+  width: 40%;
+  padding-left: 60px;
+}
+
+.cb-main-1-img {
+  width: 80%;
+}
+
+.cb-main-1-right {
+  width: 40%;
+  margin-right: 80px;
+}
+
+.cb-main-1-right p {
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+.cb-main-1-right li {
+  line-height: 1.5em;
+}
+
+.cb-main-2-title {
+  background-color: #212121;
+  color: white;
+  height: 250px;
+  padding: 20px 0px 0px 20px;
+}
+
+.cb-main-2-title p {
+  font-size: 2em;
+  font-weight: 500;
+}
+
+.cb-main-2-content {
+  background-color: #f2382b;
+  color: white;
+  padding: 60px 50px;
+  margin: -50px 50px 0px 50px;
+  font-size: 1.2em;
+  line-height: 1.4em;
+}
+
+.cb-main-2-content-p1 {
+}
+
+.cb-main-2-content-p2 {
+}
+
+.cb-main-2-content ul {
+}
+
+.cb-main-2-content li {
+}
+/* end of Cyber Bullying page */
